@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 宋体, Geneva, Arial, sans-serif;
+    font-size: large;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+header,
+footer {
+    font-family: 楷体, Geneva, Arial, sans-serif;
+    margin: auto;
+    background-color: aquamarine;
+    font-size: large;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#foot{font-family: Comic Sans MS Geneva, Arial, sans-serif;}
