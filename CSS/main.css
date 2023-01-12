@@ -3,7 +3,7 @@ body {
     font-family: 宋体, Geneva, Arial, sans-serif;
     font-size: large;
 }
-
+a{text-decoration: none;}
 a:link {
     color: green;
 }
@@ -14,6 +14,8 @@ a:visited {
 
 a:hover {
     color: rgb(38, 0, 255);
+    font-style: italic;
+    text-decoration: underline;
 }
 
 header,
@@ -27,16 +29,28 @@ footer {
     padding: 10px;
 }
 #foot{font-family: Comic Sans MS ,Geneva, Arial, sans-serif;}
-/*
 #study
 {
-    
+    border:2px solid blue;
+    border-bottom-style: none;
+    padding: 8px;
+    margin:5px;
 }
 #movies
 {
-
+    border:2px dashed black;
+    padding: 8px;
+    margin:5px;
+    background-color:#e2e7ec;
 }
 #reading
 {
-
+    border:2px solid blue;
+    border-top-style:none;
+    padding: 8px;
+    margin:5px;
+}
+h1{
+    color:rgb(23, 230, 227);
+    text-shadow: 2px 2px 1px black;
 }
