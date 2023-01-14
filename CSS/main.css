@@ -1,7 +1,15 @@
 body {
     background-color: #f0f8ff;
-    font-family: 宋体, Geneva, Arial, sans-serif;
+    font-family: Comic Sans MS,宋体, Geneva, Arial, sans-serif;
     font-size: large;
+}
+#top
+{
+    font-size: 50px;
+    font-family:Comic Sans MS ,Geneva, Arial, sans-serif;
+    text-align: center;
+    position:sticky;
+    top:0;
 }
 a{text-decoration: none;}
 a:link {
@@ -27,7 +35,12 @@ footer {
     margin: 20px;
     text-align: center;
     padding: 10px;
-}
+    clear:right;
+}/*
+header{
+    position:sticky;
+    top:0;
+}*/
 #foot{font-family: Comic Sans MS ,Geneva, Arial, sans-serif;}
 #study
 {
