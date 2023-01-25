@@ -8,19 +8,27 @@
 </head>
 
 <body>
-    <img src="images/logo3.png" alt="bysc's logo" width="240" height="120" style="float:right;">
+    <img id="home" src="images/logo3.png" alt="bysc's logo" width="240" height="120" style="float:right;">
     <h1 id="bysc">bysc</h1>
-    <header>
-        你若盛开，清风自来，心若浮沉，浅笑安然。
-    </header>
+    <ul id="navigation">
+        <li><a class="active" href="#home">导航栏</a></li>
+        <li><a href="#study">更进一步</a></li>
+        <li><a href="#movies">影视鉴赏</a></li>
+        <li><a href="#reading">经典品读</a></li>
+    </ul>
+    <!--
+    <audio controls>
+        <source src="audio/Musa.mp3" type="audio/mpeg">
+        您的浏览器不支持该音频格式。
+    </audio>-->
     <div id="study">
         <h1>更进一步</h1>
         <ul>
-            <li><a href="https://validator.w3.org/" target="_blank" title="HTML规范性检查">HTML检查</a></li>
+            <li><a href="https://validator.w3.org/" target="_self title=" HTML规范性检查">HTML检查</a></li>
             <li> <a href="https://jigsaw.w3.org/css-validator/" target="_blank" title="CSS规范性检查">CSS检查</a><br /></li>
-            <li><a href="https://www.runoob.com/" target="_blank" title="菜鸟教程编程学习">菜鸟教程</a></li>
-            <li><a href="https://www.csdn.net/" target="blank" title="CSDN">CSDN</a></li>
-            <li><a href="https://leetcode.cn/" target="_blank" title="Leetcode">力扣</a></li>
+            <li><a href="https://www.runoob.com/" target="_self" title="菜鸟教程编程学习">菜鸟教程</a></li>
+            <li><a href="https://www.csdn.net/" target="_self" title="CSDN">CSDN</a></li>
+            <li><a href="https://leetcode.cn/" target="_self" title="Leetcode">力扣</a></li>
         </ul>
     </div>
     <div id="movies">

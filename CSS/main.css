@@ -1,17 +1,22 @@
 body {
     background-color: #f0f8ff;
-    font-family: Comic Sans MS,宋体, Geneva, Arial, sans-serif;
+    font-family: Comic Sans MS, 宋体, Geneva, Arial, sans-serif;
     font-size: large;
+    margin: 0;
 }
-#bysc
-{
+
+#bysc {
     font-size: 50px;
-    font-family:Comic Sans MS ,Geneva, Arial, sans-serif;
+    font-family: Comic Sans MS, Geneva, Arial, sans-serif;
     text-align: center;
-    position:sticky;
-    top:0;
+    position: sticky;
+    top: 0;
 }
-a{text-decoration: none;}
+
+a {
+    text-decoration: none;
+}
+
 a:link {
     color: green;
 }
@@ -20,13 +25,12 @@ a:visited {
     color: red;
 }
 
-a:hover {
+a:hover:not(.active) {
     color: rgb(38, 0, 255);
     font-style: italic;
     text-decoration: underline;
 }
 
-header,
 footer {
     font-family: 楷体, Geneva, Arial, sans-serif;
     margin: auto;
@@ -35,35 +39,79 @@ footer {
     margin: 20px;
     text-align: center;
     padding: 10px;
-    clear:right;
-}/*
-header{
-    position:sticky;
-    top:0;
-}*/
-#foot{font-family: Comic Sans MS ,Geneva, Arial, sans-serif;}
-#study
-{
-    border:2px solid blue;
+    clear: right;
+}
+
+#foot {
+    font-family: Comic Sans MS, Geneva, Arial, sans-serif;
+}
+
+#study {
+    border: 2px solid blue;
     border-bottom-style: none;
     padding: 8px;
-    margin:5px;
+    margin: 5px;
 }
-#movies
-{
-    border:2px dashed black;
+
+#movies {
+    border: 2px dashed black;
     padding: 8px;
-    margin:5px;
-    background-color:#e2e7ec;
+    margin: 5px;
+    background-color: #e2e7ec;
 }
-#reading
-{
-    border:2px solid blue;
-    border-top-style:none;
+
+#reading {
+    border: 2px solid blue;
+    border-top-style: none;
     padding: 8px;
-    margin:5px;
+    margin: 5px;
 }
-h1{
-    color:rgb(23, 230, 227);
+
+h1 {
+    color: rgb(23, 230, 227);
     text-shadow: 2px 2px 1px black;
+}
+
+audio {
+    display: block;
+    height: 40px;
+    position: absolute;
+    top: 25%;
+    right: 30px;
+}
+
+ul#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navigation li {
+    float: left;
+    /*内联样式*/
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: rgba(167, 205, 235);
+    border-style: solid;
+    border-color: #f0f8ff;
+    border-width: 3px;
+}
+
+.active {
+    background-color: #4CAF50;
 }
