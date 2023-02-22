@@ -7,7 +7,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-
 }
 
 #bysc {
@@ -23,11 +22,11 @@ a {
 }
 
 a:link {
-    color: rgb(14, 236, 14);
+    color: rgb(177, 248, 12);
 }
 
 a:visited {
-    color: red;
+    color: rgb(10, 225, 67);
 }
 
 a:hover:not(.active) {
