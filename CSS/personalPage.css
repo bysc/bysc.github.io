@@ -5,6 +5,16 @@ body{
     margin: 0;
     background-color: linen;
 }
+h1 {
+    color: rgb(23, 230, 227);
+    text-shadow: 2px 2px 1px black;
+    /*模糊距离为1px*/
+    text-align: center;
+}
+/*active part*/
+.active {
+    background-color: #18bbe8;
+}
 #bysc {
     font-size: 50px;
     font-family: Comic Sans MS, Geneva, Arial, sans-serif;
@@ -22,6 +32,7 @@ body{
 {
     text-decoration: underline;
 }
+/*tow sides, left and right*/
 ul.side
 {
     list-style-type: none;
@@ -40,22 +51,13 @@ ul.side li a
     text-decoration: none;
     /*去掉下划线*/
 }
-.active {
-    background-color: #18bbe8;
-}
 ul.side li a:hover:not(.active) {
     background-color: rgba(167, 205, 235);
     border-style: solid;
     border-color: #f0f8ff;
     border-width: 3px;
 }
-h1 {
-    color: rgb(23, 230, 227);
-    text-shadow: 2px 2px 1px black;
-    /*模糊距离为1px*/
-    text-align: center;
-}
-#thinking
+#thinking/*thinking*/
 {
     clear:both;
     text-align: center;
@@ -63,4 +65,44 @@ h1 {
     margin:50px 134px;
     padding:6px;
     font-size: large;
+}
+/*notes*/
+#notes a
+{
+    text-decoration: underline;
+}
+#notes a:hover
+{
+    font-style: italic;
+    background-color: aquamarine;
+}
+#notes p
+{
+    color:#18bbe8;
+    text-decoration:underline;
+    text-align:center;
+}
+#notes ul
+{
+    list-style-type: none;
+    margin: 30px;
+    padding: 6px;
+    overflow: hidden;
+    background-color: aliceblue;
+    height:auto;
+}
+#notes ul li a
+{
+    display: block;
+    color: rgb(35, 127, 220);
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+#notes li a:hover{
+    background-color: rgba(167, 205, 235);
+    border-style: solid;
+    border-color: #f0f8ff;
+    border-width: 3px;
 }
