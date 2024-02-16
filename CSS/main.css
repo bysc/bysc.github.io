@@ -49,27 +49,29 @@ footer {
 #foot {
     font-family: Comic Sans MS, Geneva, Arial, sans-serif;
 }
-
+/* 顶部下无 */
 #study {
-    border: 2px solid blue;
+    border: 5px solid rgb(56, 152, 237);
     border-bottom-style: none;
 }
-
-#movies {
-    border: 2px dashed black;
+/* 中间上虚下无 */
+#movies,#reading {
+    border: 5px solid rgb(56, 152, 237);
+    border-top: 5px dashed rgb(38, 193, 125);
+    border-bottom-style: none;
 }
-
-#reading {
-    border: 2px solid blue;
-    border-top-style: none;
+/* 尾部上虚线 */
+#tools{
+    border: 5px solid rgb(56, 152, 237);
+    border-top: 5px dashed rgb(38, 193, 125);
 }
-
 #study,
 #movies,
-#reading {
+#reading,
+#tools{
     padding: 17px 8px 8px 8px;
     /*h1本身也有内外边距*/
-    margin: 5px;
+    margin: 0px;
 }
 
 h1 {
