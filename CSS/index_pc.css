@@ -1,0 +1,106 @@
+body{
+    font-family: Comic Sans MS, 宋体, Geneva, Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-image: url(../images/灵梦.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(23, 230, 227);
+    text-shadow: 2px 2px 1px black;
+    /*模糊距离为1px*/
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(177, 248, 12);
+}
+
+a:visited {
+    color: rgb(10, 225, 67);
+}
+
+a:hover {
+    color: rgb(251, 21, 182);
+    font-style: italic;
+}
+footer {
+    font-family: Comic Sans MS, 楷体, Geneva, Arial, sans-serif;
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+#bysc {
+    font-size: 50px;
+    font-family: Comic Sans MS, Geneva, Arial, sans-serif;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.active {
+    background-color: #07c7f2;
+}
+
+#study,
+#movies,
+#reading,
+#tools{
+    padding: 17px 8px 8px 8px;
+    /*h1本身也有内外边距*/
+    margin: 0px;
+    border: 5px solid rgb(56, 152, 237);
+}
+/* 顶部下无 */
+#study {
+    border-bottom-style: none;
+}
+/* 中间上虚下无 */
+#movies,#reading {
+    border-top: 5px dashed rgb(38, 193, 125);
+    border-bottom-style: none;
+}
+/* 尾部上虚线 */
+#tools{
+    border-top: 5px dashed rgb(38, 193, 125);
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navigation li {
+    float: left;
+    /*内联样式*/
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: rgba(167, 205, 235);
+    border-style: solid;
+    border-color: #f0f8ff;
+    border-width: 3px;
+}
+

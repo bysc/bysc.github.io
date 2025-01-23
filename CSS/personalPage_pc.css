@@ -1,0 +1,108 @@
+body{
+    font-family: Comic Sans MS, 宋体, Geneva, Arial, sans-serif;
+    font-size: large;
+    padding:0;
+    margin: 0;
+    background-color: linen;
+}
+h1 {
+    color: rgb(23, 230, 227);
+    text-shadow: 2px 2px 1px black;
+    /*模糊距离为1px*/
+    text-align: center;
+}
+/*active part*/
+.active {
+    background-color: #18bbe8;
+}
+#bysc {
+    font-size: 50px;
+    font-family: Comic Sans MS, Geneva, Arial, sans-serif;
+    color:rgb(23, 230, 227);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+#bysc a,a:link,a:visited
+{
+    text-decoration: none;
+    color:#18bbe8
+}
+#bysc a:hover
+{
+    text-decoration: underline;
+}
+/*tow sides, left and right*/
+ul.side
+{
+    list-style-type: none;
+    margin: 30px;
+    padding: 6px;
+    overflow: hidden;
+    background-color: aliceblue;
+    height:auto;
+}
+ul.side li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+ul.side li a:hover:not(.active) {
+    background-color: rgba(167, 205, 235);
+    border-style: solid;
+    border-color: #f0f8ff;
+    border-width: 3px;
+}
+#thinking/*thinking*/
+{
+    clear:both;
+    text-align: center;
+    background-color: rgb(55, 224, 227);
+    margin:50px 134px;
+    padding:6px;
+    font-size: large;
+}
+/*notes*/
+#notes a
+{
+    text-decoration: underline;
+}
+#notes a:hover
+{
+    font-style: italic;
+    background-color: aquamarine;
+}
+#notes p
+{
+    color:#18bbe8;
+    text-decoration:underline;
+    text-align:center;
+}
+#notes ul
+{
+    list-style-type: none;
+    margin: 30px;
+    padding: 6px;
+    overflow: hidden;
+    background-color: aliceblue;
+    height:auto;
+}
+#notes ul li a
+{
+    display: block;
+    color: rgb(35, 127, 220);
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+#notes li a:hover{
+    background-color: rgba(167, 205, 235);
+    border-style: solid;
+    border-color: #f0f8ff;
+    border-width: 3px;
+}
