@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: aliceblue;
-    background-image: url(../images/灵梦.jpg);
+    /* background-image: url(../images/灵梦.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
